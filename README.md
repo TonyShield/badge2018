@@ -24,19 +24,16 @@ There is an on/off slider switch on the rear of the badge just by the USB connec
 
 ## Bugs!
 
-- On some of the badges, the vibration caused by the vibration motors during startup can
-  cause the LED controller to stop working. If when you power your badge on it _doesn't_ go
-  through all the colours of the rainbow, power it on with your thumbs over the vibration motors
-  at the bottom left and right of the screen.
-- If your badge stops animating while in badge mode, try just pressing a button
-  and it should spring back to life (updating the actual Espruino firmware can fix
+- On some of the badges, the vibration during startup can cause the LED controller to stop working. 
+  If when you power your badge on it _doesn't_ go through all the colours of the rainbow, 
+  power it on with your thumbs over the vibration motors at the bottom of the screen.
+- If your badge stops animating in badge mode, try just pressing a button
+  and it should spring back to life (updating the Espruino firmware can fix
   this - see [Updating Espruino](#updating-espruino) below).
-- When you charge the badge via USB, the on/off switch on the back needs to be
-  set to ON (with the sticky-out part nearest the USB connector) or the battery
-  won't charge.
-- If you're writing bits of code using `require("Storage").write('.boot...')`
+- When you charging the badge via USB, the on/off switch needs to be set to ON (with the sticky-out part nearest the USB connector) otherwise the battery won't charge.
+- If you are using `require("Storage").write('.boot...')`
   you may eventually get errors about not being able to write (the same can happen
-  when trying to change settings). You can solve this by following the
+  when change settings). You can solve this by following the
   [Returning your badge to normal](#returning-to-standard) instructions -
   but [Updating Espruino](#updating-espruino) can stop it happening again as well.
 
