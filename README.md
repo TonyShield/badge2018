@@ -307,13 +307,13 @@ Badge.NAME=["Hello","World"];
 `);
 ```
 
-## Common Pitfalls
+## Common Issues
 
-- If you get `Badge not found` errors while trying to upload an app from the right hand side, it'll be because you're uploading with the `Reset before send` option turned on in the IDE settings (it should be turned off)
+- If you get `Badge not found` errors while trying to upload an app from the right hand side. You should turn off the `Reset before send` option in the IDE settings.
 - `reset()` (or 'reset before send) removes all JS code from the badge's RAM (including the `Badge` object) - it can be handy if you want to have full control of everything on the badge. To get back, see the next point...
-- If you want to get your badge firmware back out of flash memory _without_ power cycling your badge, just type `load()` in the left-hand side of the IDE
-- Calling `Badge.menu()` will bring the Badge's menu back up - `Badge.badge()` goes back to displaying the badge. If you want a button in the app to bring you back to the menu, you can just call: `setWatch(Badge.menu, BTN1);`
-- `Badge.reset()` attempts to reset the badge's state (removing watches and intervals) - it's an idea to stick this as the first line in your app to make sure you start from a known state each time.
+- If you want to get your badge firmware back out of flash memory _without_ power cycling your badge, just type `load()` on the left-hand side of the IDE
+- Calling `Badge.menu()` will bring the Badge's menu back up - `Badge.badge()` goes back to displaying the badge. If you want a button in the app to bring you back to the menu, you can just call: `setWatch(Badge.menu, BTN1)`
+- `Badge.reset()` attempts to reset the badge's state (removing watches and intervals) - you can use this as the first line of your app.
 
 ## Soldering Stuff
 
