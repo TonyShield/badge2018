@@ -382,14 +382,14 @@ for more info.
 The badges came with Espruino v2.00, but there have [been a few changes](https://github.com/espruino/Espruino/blob/master/ChangeLog)
 to Espruino since then that have fixed:
 
-- The badge pausing issue (caused by high Bluetooth LE traffic when scanning)
+- The badge pausing issue (when scanning under high Bluetooth LE traffic)
 - Filesystem issues when repeatedly calling `require("Storage").write`
 - Other issues
 
-To update Espruino, just [follow the Pixl.js instructions here](http://www.espruino.com/Pixl.js#firmware-updates)
+To update Espruino, just [follow the Pixl.js instructions](http://www.espruino.com/Pixl.js#firmware-updates)
 with the 'Cutting edge' build linked from [the firmware download page](http://www.espruino.com/Download#pixljs).
 
-This'll take a few minutes, and you then need to follow the steps for [Returning your badge to normal](#returning-to-standard) - so if you're fine with everything as it is, we'd recommend that you keep version 2.00 for now.
+This will take a few minutes, after that you need to follow the steps for [Returning your badge to normal](#returning-to-standard) - but if you are fine with everything as it is, we would recommend that you keep the version 2.00 for now.
 
 ## Changing your name on the badge in the Web IDE
 
