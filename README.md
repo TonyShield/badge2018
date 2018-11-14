@@ -54,8 +54,8 @@ they disable the ability to connect to them. To connect, you must do one of:
   test, which will fail (because the board isn't quite a standard Pixl.js). This
   will start your badge without loading any of the badge code.
 
-You can then use the Chrome web Browser on any Windows 10 or Mac OS device
-and go to <a href="https://www.espruino.com/ide" target="_blank">espruino.com/ide</a> and you can connect.
+You can then use the Chrome web browser on any Windows 10 or macOS devices
+and go to <a href="https://www.espruino.com/ide" target="_blank">espruino.com/ide</a> to connect.
 You're looking for a device called `Pixl abcd` where `abcd` are the last 4
 characters of the MAC address shown on the Badge's screen.
 
