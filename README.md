@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-The badge is based on a [Pixl.js](http://www.espruino.com/Pixl.js), so a
+The badge using [Pixl.js](http://www.espruino.com/Pixl.js), so a
 lot of the tutorials and information there still apply.
 
 The button names can be hard to read because of the badge surround, but they
@@ -19,8 +19,8 @@ BTN4 |___________________________| BTN3
                   ::::
 ```
 
-There is an on/off slider switch on th rear of the badge just by the USB connector
-(which is used for charging only).
+There is an on/off slider switch on the rear of the badge just by the USB connector
+(only for charging).
 
 ## Bugs!
 
